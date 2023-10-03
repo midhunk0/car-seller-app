@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.895);
+}
+*{
+    margin: 0;
+    background: #e7f8fa;
+}
+
+.search-bar{
+    margin: 20px;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 26px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar input{
+    background: white;
+    border: none;
+    border: 1px whitesmoke solid;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.search-bar input:focus{
+    outline: none;
+    border: 1px #5ba2aa solid;
+}
+
+.car{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+}
+
+.car-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px white solid;
+    border-radius: 26px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: calc((100vw / 3) - 54px);
+}
+
+.car-card img{
+    width: calc((100vw / 3) - px);
+    height: 220px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.car-card hr{
+    margin: 10px;
+    border-color: rgba(211, 211, 211, 0.233);
+}
+
+.car-header{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.car-name{
+    font-size: large;
+    font-weight: bold;
+}
+
+.car-year{
+    border: 1px #5ba2aa dashed;
+    padding: 4px;
+    border-radius: 16px;
+}
+
+.car-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+    gap:10px;
+    height: 45px;
+}
+
+.car-people, .car-type, .car-mileage, .car-gear{
+    display: flex;
+    align-items: center;
+}
+
+.car-content img{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.car-price{
+    display: flex;
+    align-items: center;
+}
+
+.car-price-value{
+    font-size:larger;
+    font-weight: bolder;
+}
+
+.car-text{
+    font-size: small;
+    margin-top: 5px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.like{
+    border: none;
+    cursor: pointer;
+}
+
+.like img{
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    background: #abd3d8;
+}
+
+.rent{
+    border: none;
+    border-radius: 16px ;
+    padding: 15px;
+    background: #5ba2aa;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 20px;
+    gap: 10px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+
+.pagination button{
+    cursor: pointer;
+    background: whitesmoke;
+    border-radius: 6px;
+    border: 1px white solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.pagination img{
+    background: whitesmoke;
+    height: 10px;
+    width: 10px;
+}
