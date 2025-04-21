@@ -1,5 +1,7 @@
 # Car Seller App
 
+![car seller](https://github.com/user-attachments/assets/04135559-acfa-4f45-8559-44403457a2d8)
+
 A simple React-based web application for browsing and searching cars available for sale.
 
 ## Features
@@ -18,7 +20,7 @@ A simple React-based web application for browsing and searching cars available f
 1. **Clone the repository:**
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/midhunk0/car-seller-app
     ```
 
 2. **Navigate to the project directory:**
